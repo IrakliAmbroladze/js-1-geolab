@@ -9,14 +9,15 @@
     <h1>JavaScript Statements</h1>
     <p>JavaScript code blocks are written between { and }</p>
     <button type="button" onclick="myFunction()">Click me!</button>
-    <p id="demo1"></p>
-    <p id="demo2"></p>
+    <p id="demo"></p>
 
     <script>
-      function myFunction() {
-        document.getElementById("demo1").innerHTML = "Hello Dolly!";
-        document.getElementById("demo2").innerHTML = "How are you?";
-      }
+      let text = "12345";
+      let min = Math.min(...text);
+      let max = Math.max(...text);
+      document.getElementById("demo").innerHTML =
+        "Minimu is: " + min + "<br>Maximum is: " + max;
+      console.log(...text);
     </script>
   </body>
 </html>
