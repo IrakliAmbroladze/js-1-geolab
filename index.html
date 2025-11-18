@@ -6,24 +6,10 @@
     <title>JS-1 homework</title>
   </head>
   <body>
-    <h2>What Can JavaScript Do?</h2>
-    <button
-      type="button"
-      onclick="document.getElementById('bulb').src='./images/pic_bulbon.gif'"
-    >
-      turn on the light
-    </button>
-    <img
-      src="./images/pic_bulboff.gif"
-      alt="bulb"
-      id="bulb"
-      style="width: 100px"
-    />
-    <button
-      type="button"
-      onclick="document.getElementById('bulb').src='./images/pic_bulboff.gif'"
-    >
-      turn off the light
-    </button>
+    <h2>JavaScript in Body</h2>
+    <p id="demo"></p>
+    <script>
+      document.getElementById("demo").innerHTML = "My first JavaScript";
+    </script>
   </body>
 </html>
