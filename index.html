@@ -7,10 +7,11 @@
   </head>
   <body>
     <h2>What Can JavaScript Do?</h2>
-    <p id="demo">JavaScript can change the style of an HTML element.</p>
+    <p>JavaScript can show hidden HTML elements.</p>
+    <p id="demo" style="display: none">Hello JavaScript!</p>
     <button
       type="button"
-      onclick="document.getElementById('demo').style.display='none'"
+      onclick="document.getElementById('demo').style.display='block'"
     >
       click me
     </button>
