@@ -6,24 +6,8 @@
     <title>JS-1 homework</title>
   </head>
   <body>
-    <h1>JavaScript Comparisons</h1>
-    <p>Input your age and click the button:</p>
-    <input type="text" id="age" value="18" />
-    <button type="button" onclick="myFunction()">Try it</button>
-    <p id="demo"></p>
+    <h1>JavaScript homework</h1>
 
-    <script>
-      function myFunction() {
-        let voteable;
-        let age = Number(document.getElementById("age").value);
-        if (isNaN(age)) {
-          console.log("we ar ehere");
-          voteable = "input is not a number";
-        } else {
-          voteable = age < 18 ? "Too young" : "Old enough";
-        }
-        document.getElementById("demo").innerHTML = voteable + " to vote.";
-      }
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
